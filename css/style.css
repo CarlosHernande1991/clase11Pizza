@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+   margin: 0;
+}
+
+
+main{
+    background-color: #E5e5e5 ;
+    flex-wrap: wrap;
+}
+
+
+.pizzaheader{
+
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+    color:white;
+    align-items: center;  
+    width: 100%;
+
+}
+
+
+.menu{
+    display:flex;
+    justify-content:space-around;
+    color:white;
+  
+}
+
+header nav div ul li{
+    padding: 20px;
+}
+
+main section p span {
+    color: white;
+}
+
+
+
+.pizzaL{
+    align-self: center;
+}
+
+.pizzaT{
+    padding: 35px 0px 35px 15px
+
+}
+.maincontainer{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+    
+}
+.rojo{
+    color:#FC200C;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    z-index: 20;
+    padding-left: 20px;
+    
+}
+
+.pizzafooter{
+
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+
+.pizzafooterL{
+    align-self: center;
+    padding: 35px 15px 35px 15px
+
+}
+
+.pizzafooterT{
+    align-self: flex-start;
+}
+
+.podio{
+    display: flex;
+    background-color: white;
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+    margin: 50px 0x; 
+    flex-direction: column;
+
+}
+
+
+.enviogratis{
+
+    background-image:url(../img/delivery.jpg);
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+    margin: 50px 0x;
+
+}
+
+.pizzaFalling{
+    position: relative;
+    align-self:center;
+    padding-bottom: 1000px;
+
+}
